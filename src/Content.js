@@ -19,6 +19,9 @@ import PythonLogo from './assets/images/skills/python.png';
 import ReactLogo from './assets/images/skills/react.png';
 import AWSLogo from './assets/images/skills/aws.jpeg';
 
+import ProjectPerson from './assets/images/projects/person.png';
+import F1Game from './assets/images/projects/f1logo.jpeg';
+
 /**
  ____                              _         ____            _             _   
 |  _ \ _   _ _ __   __ _ _ __ ___ (_) ___   / ___|___  _ __ | |_ ___ _ __ | |_ 
@@ -88,5 +91,21 @@ export const content = {
             }
         ],
         icon: MdArrowForward,
+      },
+      projects: {
+        image: ProjectPerson,
+        projects: [
+            {
+                name: "Formula 1 Fantasy Game",
+                description: "A game",
+                link: "http://fantasy.kennylipke.com",
+                image: F1Game,
+            },
+            // {
+            //     name: "Another one...",
+            //     description: "A project of some sort",
+            //     image: null,
+            // }
+        ]
       }
 }

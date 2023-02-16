@@ -6,9 +6,8 @@
 |___|_| |_| |_| .__/ \___/|_|   \__| |___|_| |_| |_|\__,_|\__, |\___||___/
               |_|                                         |___/          
  */
-import { GrMail } from "react-icons/gr";
+import { GrGithub, GrMail, GrLinkedin } from "react-icons/gr";
 import { MdArrowForward, MdCall } from "react-icons/md";
-import { BsInstagram } from "react-icons/bs";
 import { TbSmartHome } from "react-icons/tb";
 import { BiUser } from "react-icons/bi";
 import { RiServiceLine, RiProjectorLine } from "react-icons/ri";
@@ -40,10 +39,10 @@ export const content = {
           link: "#skills",
           icon: BiUser,
         },
-        {
-          link: "#services",
-          icon: RiServiceLine,
-        },
+        // {
+        //   link: "#services",
+        //   icon: RiServiceLine,
+        // },
         {
           link: "#projects",
           icon: RiProjectorLine,
@@ -106,6 +105,25 @@ export const content = {
             //     description: "A project of some sort",
             //     image: null,
             // }
+        ]
+      },
+      contact: {
+        links: [
+            {
+                icon: GrMail,
+                text: "kenlipke@me.com",
+                link: "mailto:kenlipke@me.com",
+            },
+            {
+                icon: GrLinkedin,
+                text: "LinkedIn",
+                link: "https://www.linkedin.com/in/kennylipke/"
+            },
+            {
+                icon: GrGithub,
+                text: "GitHub",
+                link: "https://github.com/kel89"
+            }
         ]
       }
 }

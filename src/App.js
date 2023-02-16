@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
+import Contact from './components/Contact';
 
 // This one is sick: https://github.com/Sridhar-C-25/react_portfolio_2
 
@@ -14,6 +15,7 @@ function App() {
             <Hero />
             <Skills />
             <Projects />
+            <Contact />
         </>
     )
 }

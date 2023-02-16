@@ -91,6 +91,12 @@ export const content = {
         ],
         icon: MdArrowForward,
       },
+      experience: {
+
+      }, 
+      education: {
+
+      },
       projects: {
         image: ProjectPerson,
         projects: [

@@ -14,6 +14,8 @@ function App() {
             <Navbar />
             <Hero />
             <Skills />
+            {/* Experience -- Model off services */}
+            {/* Education -- Model off Testimonials*/}
             <Projects />
             <Contact />
         </>

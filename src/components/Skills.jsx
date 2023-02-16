@@ -1,10 +1,14 @@
 import React, { createElement, useState } from "react";
 import { content } from "../Content";
+import SkillModal from "./SkillModal";
 
 export default function Skills({}) {
 	const { skills } = content;
+    const [modalOpen, setModalOpen] = useState(false);
+    const [selectedSkill, setSelectedSkill] = useState();
 
 	return (
+        <>
 		<section id="skills" className="min-h-fit bg-bg_light_primary">
 			<div className="md:container px-5  py-14">
 				<h2 className="title" data-aos="fade-down">
@@ -36,8 +40,8 @@ export default function Skills({}) {
 							<p className="italic">{skill.para}</p>
 							<div
 								onClick={() => {
-									// setSelectSkill(skill);
-									// openModal();
+									setSelectedSkill(skill);
+                                    setModalOpen(true);
 								}}
 								className="text-xl absolute top-3 right-3">
 								{createElement(skills.icon)}
@@ -47,5 +51,11 @@ export default function Skills({}) {
 				))}
 			</div>
 		</section>
+        <SkillModal 
+            open={modalOpen}
+            handleClose={() => setModalOpen(false)}
+            skill={selectedSkill}
+            />
+        </>
 	);
 }

@@ -60,16 +60,31 @@ export const content = {
                 name: "Python",
                 para: "I am good at python",
                 logo: PythonLogo,
+                modal: [
+                    "I am good at it",
+                    "These are the things I can do with it",
+                    "These are some of the packags"
+                ]
             },
             {
                 name: "ReactJS",
                 para: "This is made in React",
                 logo: ReactLogo,
+                modal: [
+                    "I am good at it",
+                    "These are the things I can do with it",
+                    "These are some of the packags"
+                ]
             },
             {
                 name: "AWS",
                 para: "I know some things",
                 logo: AWSLogo,
+                modal: [
+                    "I am good at it",
+                    "These are the things I can do with it",
+                    "These are some of the packags"
+                ]
             }
         ],
         icon: MdArrowForward,

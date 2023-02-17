@@ -50,6 +50,7 @@ export default function Skills({}) {
 					</div>
 				))}
 			</div>
+            <br/>
 		</section>
         <SkillModal 
             open={modalOpen}

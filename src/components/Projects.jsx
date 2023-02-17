@@ -12,7 +12,7 @@ export default function Projects({}) {
 	const { projects } = content;
 
 	return (
-		<section id="projects" className="min-h-fit">
+		<section id="projects" className="min-h-fit bg-bg_light_primary">
 			<div className="md-container px-5 py-14">
 				<h2 className="title" data-aos="fade-down">
 					Projects

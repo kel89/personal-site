@@ -22,7 +22,7 @@ export default function Hero({}) {
 					<h2>Engineer</h2>
 					<br />
 					<div className="flex justify-end">
-						<button className="btn">{hero.btnText}</button>
+						<a href="#contact"><button className="btn">{hero.btnText}</button></a>
 					</div>
 					{/* <div className="flex flex-col gap-10 mt-10">
 						{hero.hero_content.map((content, i) => (

@@ -21,10 +21,12 @@ import AWSLogo from './assets/images/skills/aws.jpeg';
 
 import ProjectPerson from './assets/images/projects/SubjectCrop.png';
 import F1Game from './assets/images/projects/f1logo.jpeg';
+import parkingLogo from "./assets/images/projects/parking.jpeg";
 
 import BAHLogo from './assets/images/experience/bah_logo.jpeg'
 import HellometerLogo from './assets/images/experience/hellometer_logo.png';
 import LucidLogo from './assets/images/experience/lucid_logo.png';
+import BreezeLogo from './assets/images/experience/breeze2.jpeg'
 
 /**
  ____                              _         ____            _             _   
@@ -102,6 +104,18 @@ export const content = {
       experience: 
         [
             {
+                company: "Breeze",
+                companyDescription: "Airline",
+                dates: "September 2023 to Present",
+                title: "Software Engineer",
+                tasks: [
+                    "Architect and build integrations with Barclays for branded credit card",
+                    "Build enhancements to website and mobile app",
+                    "Manage booking processes on all platforms",
+                ],
+                logo: BreezeLogo
+            },
+            {
                 company: "Hellometer",
                 companyDescription: "Computer Vision Start-up for QSR",
                 dates: "December 2020 to December 2022",
@@ -150,6 +164,12 @@ export const content = {
                 description: "Compete with your friends to predict each week's outcome",
                 link: "http://fantasy.kennylipke.com",
                 image: F1Game,
+            },
+            {
+                name: "Parking Manger",
+                description: "Full stack application to automatically make parking reservations for ski resorts",
+                link: "http://parking.kennylipke.com",
+                image: parkingLogo,
             },
             // {
             //     name: "Another one...",

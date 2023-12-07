@@ -147,7 +147,7 @@ export const content = {
         projects: [
             {
                 name: "Formula 1 Fantasy Game",
-                description: "Customer league to predict race outcomes each week",
+                description: "Compete with your friends to predict each week's outcome",
                 link: "http://fantasy.kennylipke.com",
                 image: F1Game,
             },

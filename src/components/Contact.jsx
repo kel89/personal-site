@@ -31,6 +31,7 @@ export default function Contact({}) {
                     </div>
                 </div>
 			</div>
+            <br/>
 		</section>
 	);
 }
